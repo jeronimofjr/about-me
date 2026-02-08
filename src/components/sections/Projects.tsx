@@ -44,7 +44,7 @@ const Projects = () => {
                         {project.tagline}
                     </p>
 
-                    <p className="text-[#5b310d]  mb-6 text-sm leading-relaxed">
+                    <p className="text-[#5b310d]  mb-6 text-sm leading-relaxed text-justify">
                         {project.description}
                     </p>
 
