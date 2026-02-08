@@ -10,7 +10,7 @@ const Degrees = () => {
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.45, ease: 'easeOut' }}
         >
-            <h2 className="text-xs font-bold uppercase tracking-widest text-[#7d4412] border-b border-[#9f5717] pb-1">
+            <h2 className="text-sm font-bold uppercase tracking-widest text-[#7d4412] border-b border-[#9f5717] pb-1">
                 {myself["pt-BR"].sections.education}
             </h2>
 

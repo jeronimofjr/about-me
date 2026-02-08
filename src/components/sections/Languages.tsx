@@ -10,7 +10,7 @@ const Languages = () => {
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.45, ease: 'easeOut', delay: 0.05 }}
         >
-            <h3 className="text-xs font-bold uppercase tracking-widest text-[#7d4412] border-b border-[#9f5717] pb-1">
+            <h3 className="text-sm font-bold uppercase tracking-widest text-[#7d4412] border-b border-[#9f5717] pb-1">
                 {myself["pt-BR"].sections.languages}
             </h3>
             <div className="text-sm text-[#5b310d]">
