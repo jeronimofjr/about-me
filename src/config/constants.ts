@@ -47,6 +47,20 @@ export const myself = {
                 github: 'https://github.com/jeronimofjr'
             }
         },
+        certifications: [
+            {
+                title: "AWS Certified Solutions Architect",
+                issuer: "Amazon Web Services",
+                date: "2024",
+                link: "https://..."
+            },
+            {
+                title: "Google Cloud Professional",
+                issuer: "Google Cloud",
+                date: "2023",
+                link: "https://..."
+            }
+        ],
         actions: {
             visitProject: 'Visitar projeto',
             languageLabel: 'Idioma'

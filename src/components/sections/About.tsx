@@ -14,7 +14,7 @@ const About = () => {
                     {myself["pt-BR"].sections.about}
                 </h2>
                 <div className="text-[#4a280b]  leading-relaxed text-lg md:text-xl w-full space-y-4 text-justify">
-                    {myself["pt-BR"].header.about.map((paragraph, index) => (
+                    {myself["pt-BR"].about.description.map((paragraph, index) => (
                         <p key={index}>{paragraph}</p>
                     ))}
                 </div>
@@ -27,7 +27,7 @@ const About = () => {
                 transition={{ duration: 0.6, ease: 'easeOut', delay: 0.1 }}
             >
                 <motion.a
-                    href="https://www.linkedin.com/in/franciscojeronimojr/"
+                    href={myself["pt-BR"].about.media.linkendin}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-5 py-2.5 border  border-[#9f5717]  rounded-lg text-sm font-bold text-[#5b310d]  hover:border-none hover:text-white  hover:bg-[#5b310d] transition-all shadow-sm group"
@@ -38,7 +38,7 @@ const About = () => {
                     LinkedIn
                 </motion.a>
                 <motion.a
-                    href="https://github.com/jeronimofjr"
+                    href={myself["pt-BR"].about.media.github}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-5 py-2.5 border  border-[#9f5717]  rounded-lg text-sm font-bold text-[#5b310d]  hover:border-none hover:text-white  hover:bg-[#5b310d] transition-all shadow-sm group"
