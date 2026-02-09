@@ -125,7 +125,7 @@ export const myself = {
             {
                 company: 'HIDROBR',
                 location: 'Remoto',
-                role: 'Estagiário em Desenvolvimento de Software ',
+                role: 'Estagiário em Desenvolvimento de Sotware',
                 period: '03/2023 - 09/2023',
                 bullets: [
                     'Processamento de dados em Python através de análise de dados hidrológicos com Pandas, GeoPandas e NumPy.',
@@ -152,7 +152,7 @@ export const myself = {
             {
                 company: 'Supermercado Pinheiro',
                 location: 'Remoto',
-                role: 'Estagiário em Desenvolvimento de Software ',
+                role: 'Estagiário em Desenvolvimento Full Stack',
                 period: '03/2022 - 09/2022',
                 bullets: [
                     'APIs em NodeJS, desenvolvimento de serviços REST com Express e Knex.js.',
