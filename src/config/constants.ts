@@ -116,10 +116,10 @@ export const myself = {
                 bullets: [
                     'Desenvolvimento de sistema, manutenção e criação de funcionalidades em sistemas internos.',
                     'APIs em Python/Flask, criação de endpoints seguindo Clean Architecture para o Painel e-SUS APS em projeto vinculado ao Ministério da Saúde',
-                    'NLP aplicado à saúde, extração de comorbidades e sintomas em prontuários médicos através de técnicas de Rule-Based Matching, NER e Transformers',
+                    'NLP aplicado à saúde, extração de comorbidades e sintomas em prontuários médicos através de técnicas de Rule-Based Matching, NER e Transformers.',
                     'Processamento de dados, criação de ETL para geração e transformação de bases usando DuckDB e Polars.',
-                    'Uso de React para desenvolvimento e melhoria de interfaces de gestão e usuários',
-                    'Criação de landing page e uso de github actions, uso de tecnologias da GCP (Compute engine, Cloud Run, Cloud SQL), além de suporte à implantação do sistema e-sus APS nas UBSs que aderiram ao programa'
+                    'Uso de React para desenvolvimento e melhoria de interfaces de gestão.',
+                    'Criação de landing page e uso de github actions, uso de tecnologias da GCP (Compute engine, Cloud Run, Cloud SQL), além de suporte à implantação do sistema e-SUS APS nas UBSs que aderiram ao programa.'
                 ]
             },
             {
