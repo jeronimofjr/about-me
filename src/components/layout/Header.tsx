@@ -33,12 +33,12 @@ const Header = () => {
                     </div>
                     <div className="flex flex-wrap items-center gap-3 text-[11px] text-[#6c3b10]  font-bold uppercase tracking-[0.2em]">
                         <span className="flex items-center gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-green-500" aria-hidden />
+                            <span className="w-1.5 h-1.5 rounded-full  bg-linear-to-r from-green-500 to-blue-500" aria-hidden />
                             {myself["pt-BR"].header.nationality}
                         </span>
                         <span className="text-[#8e4d14] ">/</span>
                         <span className="flex items-center gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-orange-500" aria-hidden />
+                            <span className="w-1.5 h-1.5 rounded-full bg-linear-to-r from-blue-500 to-orange-500" aria-hidden />
                             {myself["pt-BR"].header.location}
                         </span>
                         <span className="text-[#8e4d14] ">/</span>

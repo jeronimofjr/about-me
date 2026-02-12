@@ -39,9 +39,9 @@ export const myself = {
             email: 'franciscojeronimo.dev@gmail.com',
         },
         about: {
-            description: ['Atuo no desenvolvimento de sistemas e processamento de dados, com experiência em saúde pública, varejo e engenharia. Trabalho com automação, APIs e análise de dados para apoiar sistemas de gestão e tomada de decisão.',
-                'Desenvolvo aplicações web com Python (Flask/FastAPI) e JavaScript/TypeScript (NodeJS/React), integrando serviços, bancos de dados e interfaces. Tenho forte atuação em NLP aplicado, incluindo classificação de textos, extração de informações, modelagem semântica e uso de LLMs.',
-                'Possuo experiência em tecnologias voltadas a automação e ciência de dados, como Python, SQL, React, DuckDB, Docker e PostgreSQL, com aplicação de padrões de projeto e princípios de arquitetura de software.'],
+            description: ['Atuo no desenvolvimento de sistemas e processamento de dados, com experiência em empresas da área de saúde pública, varejo e engenharia. Trabalho com automação, APIs e análise de dados para apoiar sistemas de gestão e tomada de decisão.',
+                'Desenvolvo aplicações web, estruturando integrações entre APIs, bancos de dados e interfaces de usuário. Tenho atuação em NLP aplicado, com foco em classificação de textos, extração de informações, modelagem semântica e uso de LLMs para geração de insights.',
+                'Também atuo na construção de soluções aplicando boas práticas de arquitetura, padrões de projeto e tecnologias voltadas a automação, persistência e análise de dados.'],
             media: {
                 linkendin: 'https://www.linkedin.com/in/franciscojeronimojr/',
                 github: 'https://github.com/jeronimofjr'
@@ -68,7 +68,7 @@ export const myself = {
         projects: [
             {
                 id: '0',
-                title: 'News Ner br',
+                title: 'News NER BR',
                 url: 'https://github.com/jeronimofjr/news-ner-br',
                 tagline: 'Extração de Entidades Nomeadas (NER) a partir de notícias econômicas brasileiras',
                 description: 'Este projeto implementa uma pipeline de Processamento de Linguagem Natural (NLP) para extração e análise de Entidades Nomeadas (NER) a partir de notícias brasileiras coletadas automaticamente via feeds RSS. O foco principal é analisar notícias do tema Economia, identificando quais Pessoas e Organizações aparecem com maior frequência no noticiário recente, utilizando dados reais e não estruturados.',
@@ -83,7 +83,7 @@ export const myself = {
                 title: 'Desafio API E-SUS',
                 url: 'https://github.com/jeronimofjr/api-esus',
                 tagline: 'API REST para Acesso a Dados de Saúde.',
-                description: 'Desenvolvimento de uma API REST para acesso estruturado a dados de atendimentos de saúde, originalmente exportados de um sistema de terceiros em formato CSV. O objetivo é disponibilizar esses dados de forma segura, padronizada e eficiente para consumo por equipes de Ciência de Dados e outros sistemas corporativos.',
+                description: 'Desenvolvimento de uma API REST para acesso estruturado a dados de atendimentos de saúde, originalmente exportados de um sistema de terceiros em formato CSV. O objetivo é disponibilizar esses dados de forma padronizada e eficiente para consumo por equipes de Ciência de Dados.',
                 bullets: [
                     'Uso de arquitetura em camadas (Controllers -> Services -> Repositories) em Python/Flask.',
                     'Validação de dados com Marshmallow.',
@@ -115,7 +115,7 @@ export const myself = {
                 period: '06/2024 - Presente',
                 bullets: [
                     'Desenvolvimento de sistema, manutenção e criação de funcionalidades em sistemas internos.',
-                    'APIs em Python/Flask, criação de endpoints seguindo Clean Architecture para o Painel e-SUS APS em projeto vinculado ao Ministério da Saúde',
+                    'APIs em Python/Flask, criação de endpoints seguindo Clean Architecture para o Painel e-SUS APS em projeto vinculado ao Ministério da Saúde.',
                     'NLP aplicado à saúde, extração de comorbidades e sintomas em prontuários médicos através de técnicas de Rule-Based Matching, NER e Transformers.',
                     'Processamento de dados, criação de ETL para geração e transformação de bases usando DuckDB e Polars.',
                     'Uso de React para desenvolvimento e melhoria de interfaces de gestão.',
@@ -129,7 +129,7 @@ export const myself = {
                 period: '03/2023 - 09/2023',
                 bullets: [
                     'Processamento de dados em Python através de análise de dados hidrológicos com Pandas, GeoPandas e NumPy.',
-                    'Integração com APIs públicaS, consumo de dados da API da ANA e outras fontes internas/externas.',
+                    'Integração com APIs públicas, consumo de dados da API da ANA e outras fontes internas/externas.',
                     'Criação de API REST com Flask, manipulação de dados georreferenciados e integração com banco PostgreSQL.',
                     'Automação de interfaces desktop para o desenvolvimento de aplicações em Tkinter para cálculos e problemas de engenharia.',
                     'Implementação de interfaces com React.'
@@ -141,12 +141,12 @@ export const myself = {
                 role: 'Bolsista em Processamento de Linguagem Natural (NLP)',
                 period: '09/2022 - 02/2023',
                 bullets: [
-                    'Processamento de texto, Limpeza, tokenização,  e normalização de dados conversarcionais extraídos de chatbots.',
-                    'NLP com SpaCy e NLTK para Preparação de corpus para análises e modelos preditivos.',
+                    'Processamento de texto, limpeza, tokenização,  e normalização de dados conversarcionais extraídos de chatbots.',
+                    'NLP com SpaCy e NLTK para preparação de corpus para análises e modelos preditivos.',
                     'Geração de embeddings e uso de Word2Vec, FastText, GloVe e embeddings contextuais (Uso da lib Flair).',
-                    'Avaliação de embeddings a partir de Análises intrínsecas e extrínsecas de qualidade semântica.',
+                    'Avaliação de embeddings a partir de análises intrínsecas e extrínsecas,  para aferir qualidade semântica.',
                     'Visualização de dados, projeção de embeddings e clusters em gráficos 2D.',
-                    'Deep Learning para dados  textuais,  aplicação de modelos de classificação com LSTM, BiLSTM e redes densas com Keras.'
+                    'Deep Learning para dados textuais,  aplicação de modelos de classificação com LSTM, BiLSTM e redes densas com Keras.'
                 ]
             },
             {
@@ -170,8 +170,8 @@ export const myself = {
             degree: 'Ciência da Computação',
             date: '',
             languages: [
-                { name: 'Portugues', level: 'Nativo' },
-                { name: 'Ingles', level: 'Básico' }
+                { name: 'Português', level: 'Nativo' },
+                { name: 'Inglês', level: 'Básico' }
             ]
         },
         footer: {
